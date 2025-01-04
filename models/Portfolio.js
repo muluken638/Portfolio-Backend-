@@ -5,7 +5,7 @@ const PortfolioSchema = new mongoose.Schema({
   coverImage: String,
   description: String,
   galleryImages: [{ type: String }],
-    githubLink: String,
+  githubLink: String,
   liveDemoLink: String,
   status: {
     type: String,
